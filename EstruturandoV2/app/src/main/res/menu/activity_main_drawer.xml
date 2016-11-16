@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vetor"
+            android:title="Vetores" />
+        <item
+            android:id="@+id/nav_lista"
+            android:title="Lista Sequencial" />
+        <item
+            android:id="@+id/nav_pilha"
+            android:title="Pilha Sequencial" />
+        <item
+            android:id="@+id/nav_fila"
+            android:title="Fila Sequencial" />
+
+        <item
+            android:id="@+id/nav_arvore"
+            android:title="Arvore Binária" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/nav_sair"
+            android:title="Sair" />
+    </group>
+
+</menu>

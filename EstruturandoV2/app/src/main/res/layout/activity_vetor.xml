@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vetor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.estruturando.estruturandov2.VetorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vetor"
+        android:textSize="18sp"
+        android:textColor="#313131" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#313131"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/vetores1"
+        android:textColor="#313131"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="@string/vetores2"
+        android:textColor="#313131"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vetor_criar_txt"
+        android:textSize="16sp"
+        android:textColor="#313131" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#313131"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vetor_criar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/vetor_criar"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#B71C1C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vetor_adicionar_txt"
+        android:textSize="16sp"
+        android:textColor="#313131" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#313131"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vetor_adicionar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/vetor_adicionar"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#B71C1C" />
+
+
+
+</LinearLayout>
